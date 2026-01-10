@@ -3,7 +3,7 @@
 date = '2026-01-10T23:55:00+01:00'
 draft = false
 title = "Intro to LLMs: It's Just Two Files?"
-summary = "A deep dive into how Large Language Models actually work. From 'zipping' the internet to Grandma's napalm recipe."
+summary = "A deep dive into how Large Language Models actually work. From 'zipping' the internet to scary exploits."
 +++
 
 I recently watched a fascinating introduction to Large Language Models (LLMs), and I wanted to break down my notes for you guys. There is a lot of hype around AI right now, but when you peel back the layers, it's actually surprisingly understandable.
