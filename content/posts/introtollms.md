@@ -6,7 +6,7 @@ title = "Intro to LLMs: It's Just Two Files?"
 summary = "A deep dive into how Large Language Models actually work. From 'zipping' the internet to scary exploits."
 +++
 
-I recently watched a fascinating introduction to Large Language Models (LLMs), and I wanted to break down my notes for you guys. There is a lot of hype around AI right now, but when you peel back the layers, it's actually surprisingly understandable.
+I recently watched [a fascinating introduction to Large Language Models (LLMs)](https://www.youtube.com/watch?v=zjkBMFhNj_g) on youtube, and I wanted to break down my notes for you guys. There is a lot of hype around AI right now, but when you peel back the layers, it's actually surprisingly understandable.
 
 **The Basics: Two Files**
 
