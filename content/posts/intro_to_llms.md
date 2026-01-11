@@ -157,3 +157,5 @@ Perhaps the most insidious attack is **data poisoning**, where malicious data is
 ### Conclusion
 
 Large Language Models represent a new step in technology. They are powerful, complex, and full of promise. Understanding how they work, their limitations, and their vulnerabilities is essential as we continue to integrate them into our world. The journey of discovery is far from over, and the next few years are sure to be filled with even more incredible advancements.
+
+*source https://www.youtube.com/watch?v=zjkBMFhNj_g*
