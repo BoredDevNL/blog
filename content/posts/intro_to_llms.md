@@ -7,7 +7,7 @@ summary = "A comprehensive exploration of Large Language Models. This guide cove
 
 Welcome to this in-depth guide to Large Language Models (LLMs). If you've ever been curious about what's really going on behind the curtain of models like ChatGPT, you're in the right place. We'll be exploring everything from the fundamental building blocks to the complex security challenges that are shaping the future of this technology.
 
-### The Anatomy of an LLM: More Than Just Code
+### The Anatomy of an LLM
 
 At its most basic level, an LLM is composed of two primary elements:
 
@@ -16,13 +16,13 @@ At its most basic level, an LLM is composed of two primary elements:
 
 The real magic, and the immense cost, comes from creating the parameter file.
 
-### Training: From Internet Scale Data to a Digital Brain
+### Training
 
 The process of training an LLM is a monumental undertaking. It begins with gathering an enormous corpus of text data, often on the scale of 10 terabytes, which represents a significant portion of the public internet. This data is then fed into a massive cluster of GPUs for an extended period. The Llama 2 70B model, for example, required 600 GPUs running for 12 days, at a cost of roughly $2 million.
 
 This intense process "compresses" the vastness of the training data into a parameter file, in this case, 140GB. This is a "lossy" compression, meaning the model doesn't memorize the data verbatim but learns the underlying patterns, grammar, and relationships within it.
 
-### The Core Function: Next Word Prediction
+### The Core Function
 
 The fundamental task of an LLM is to predict the next word in a sequence.
 
@@ -34,11 +34,11 @@ The underlying architecture that makes this possible is often a **Transformer**,
 
 ![A diagram of the Transformer architecture, showing its encoder and decoder components.](/images/posts/llm-intro/transformer-architecture.jpg)
 
-### Emergent Properties: The Ghosts in the Machine
+### Emergent Propertie
 
 As LLMs become larger and are trained on more data, they begin to exhibit "emergent properties," abilities that were not explicitly programmed into them.
 
-#### Hallucinations: When the Model "Dreams"
+#### Hallucinations
 
 One of the most well-known emergent properties is **hallucination**. This is when the model generates text that is fluent, coherent, and sounds factual but is entirely made up.
 
@@ -54,7 +54,7 @@ Another fascinating emergent property is the **reversal curse**. An LLM might kn
 
 This shows that an LLM's knowledge is not as robust or flexible as human knowledge.
 
-### Fine-Tuning: From a Base Model to a Conversational Agent
+### Fine-Tuning
 
 To transform a base LLM from a simple document generator into a helpful assistant, a process called **fine-tuning** is used. This involves further training the model on a high-quality dataset of hundreds of thousands of conversations written mostly by humans. An example of one of these conversations you can see below.
 
